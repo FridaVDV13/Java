@@ -1,0 +1,204 @@
+body  {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+a { 
+    text-decoration:none;
+}
+
+header {
+    width: 100%;
+    height: 48px;
+    background-color: rgb(255, 255, 255);
+    color: black ;
+}
+
+.seccion-derecha-de-navegacion{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+    color: black;
+    font-size: 13px;
+}
+
+.links {
+    margin: 10px;
+    margin-top: 5px;
+}
+
+.img-perfil {
+    height: 32px;
+    width: 32px;
+}
+.menu-icono {
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    opacity: 50%;
+}
+main {
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo-google{
+    width: 272px;
+    height: 92px;
+    margin-top: 50px;
+    margin-bottom: 2px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 20px;
+}
+
+.buscador-contenedor{
+    width: 42%;
+    height: 43px;
+    padding-bottom: 1px;
+    border-radius: 30px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icono-busqueda {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    opacity: 50%;
+    
+}
+
+.barra {
+    width: 85%;
+    height: 30px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    
+}
+
+.icono-micro {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px; 
+    margin-right: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.boton-buscar{
+    text-align: center;
+    margin-inline-end: 0px;
+    
+}
+
+ .buscargoogle {
+    background-color:  rgb(248, 249, 250);
+    border: 1px solid rgb(248, 249, 250);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+
+ }
+
+.boton-suerte{
+    text-align: center;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+    
+}
+.mesientoconsuerte {
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(248, 249, 250);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+.idioma-mexico{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    justify-content: space-around;
+    
+}
+
+.footer-inferior {
+    border-top: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .footer-izquierda{
+    justify-self: left;
+}
+
+
+footer .footer-derecha{
+    justify-self: flex-end;
+}
+
+footer div a{
+    margin: 10px;
+    color: #70757a;
+
+}
+
+footer div p{
+    margin: 10px;
+    color: #70757a;
+
+}
+
+
+
+
+
